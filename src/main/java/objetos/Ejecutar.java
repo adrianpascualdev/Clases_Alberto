@@ -10,9 +10,14 @@ public class Ejecutar {
         }else {
             System.out.println("No son la misma");
         }
-        Persona adrian3 = new Persona("29182819A", "Adrian", "Perez Palacios", 18);
-        Persona adrian4 = new Persona("29182819A", "Adrian", "Perez Palacios", 18);
-        if (adrian3.equals(adrian4))
+
+        Vehiculo vehiculo = new Vehiculo("ASDADA", 4);
+        Vehiculo vehiculo1 = new Vehiculo("ASDADDD", 4);
+        if (vehiculo.equals(vehiculo1)) {
+            System.out.println("Son el mismo");
+        }else {
+            System.out.println("No son el mismo");
+        }
     }
 
 }
